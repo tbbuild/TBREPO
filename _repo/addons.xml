@@ -16,7 +16,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.bucky" name="Bucky Wizard" version="0.1.7" provider-name="Redemption Bucky">
+<addon id="plugin.program.TBBuild" name="[COLOR yellow]TB[/COLOR] [COLOR black]BUILD[/COLOR]" version="1.2.4" provider-name="TB BUILD">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -25,9 +25,10 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Bucky Wizard</summary>
-    <description lang="en">Bucky Wizard allows you to get access to the latest Bucky Custom Build/s and APKs.</description>
+    <summary lang="en">TB BUILD</summary>
+    <description lang="en">SEE WHAT HAPPENS</description>
     <platform>all</platform>
+	<news></news>
   </extension>
 </addon>
 
