@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.CSaintsWizard" name="[COLOR red]Cosmic Saints[/COLOR] [COLOR ghostwhite]Wizard[/COLOR]" version="1.2.4" provider-name="Cosmic Saints">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cosmic Saints Wizard</summary>
+    <description lang="en">Cosmic Saints Wizard will allow you to install our builds, Android APK's, perform maintenance and much more.</description>
+    <platform>all</platform>
+	<news></news>
+  </extension>
+</addon>
+
+<addon id="repository.drxrepopub" name="[COLOR gold]Durex Build Repo[/COLOR]" version="2.0" provider-name="Durex">
+	<extension point="xbmc.addon.repository" name="Durex Build Repo">
+		<info compressed="false">https://raw.githubusercontent.com/drxbld/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/drxbld/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/drxbld/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Durex Add-on Repository</summary>
+		<description>Kodi Repository for Durex Build</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.TBBuild" name="TB Build REPO" version="0.0.3" provider-name="Tony B">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TB Build REPO">
+            <info compressed="false">https://tbbuild.000webhostapp.com/_repo/addons.xml</info>
+            <checksum>https://tbbuild.000webhostapp.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://tbbuild.000webhostapp.com/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TEST</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
