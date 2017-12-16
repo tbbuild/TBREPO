@@ -29,14 +29,14 @@
 	</extension>
 </addon>
 
-    <addon id="repository.TBBuild" name="TB Build REPO" version="0.0.3" provider-name="Tony B">
+    <addon id="repository.TBBuild" name="TB Build REPO" version="0.0.4" provider-name="Tony B">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="TB Build REPO">
-            <info compressed="false">https://tbbuild.000webhostapp.com/_repo/addons.xml</info>
-            <checksum>https://tbbuild.000webhostapp.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://tbbuild.000webhostapp.com/_repo/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/tbbuild/TBREPO/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tbbuild/TBREPO/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tbbuild/TBREPO/master/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
